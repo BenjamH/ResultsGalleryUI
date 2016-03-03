@@ -1,0 +1,35 @@
+.overlay-container {
+  position: relative;
+}
+
+.overlay-container .overlay {
+  position: absolute;
+  top: 65%;
+  right: 5%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  border: 2px solid black;
+  vertical-align: middle;
+  max-height: 50%;
+  width: 30%;
+  max-width: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.overlay-container:hover .overlay:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+img {
+  width: 65%;
+}
+
+.score {
+  font-weight: 200;
+  font-size: 3vmax;
+}
+
+h1 {
+  text-decoration: underline;
+}
